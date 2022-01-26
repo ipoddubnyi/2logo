@@ -6,6 +6,27 @@
 </head>
 <body>
     <div id="app"></div>
+
+    <div>
+        <input id="txt" type="text" />
+        <button id="btn" type="button">Enter</button>
+    </div>
+
+    <!-- <canvas id="cnv" width="500" height="500">
+        <p>Ваш браузер не поддерживает рисование.</p>
+    </canvas> -->
+
+    <div style="position: relative;">
+        <canvas id="cnv" width="500" height="500" 
+          style="position: absolute; left: 0; top: 0; z-index: 0; border: 1px solid black;">
+          <p>Ваш браузер не поддерживает рисование.</p>
+        </canvas>
+
+        <canvas id="cnv2" width="500" height="500" 
+          style="position: absolute; left: 0; top: 0; z-index: 1;">
+          <p>Ваш браузер не поддерживает рисование.</p>
+        </canvas>
+    </div>
     <script src="js/main-bundle.js"></script>
 </body>
 </html>
